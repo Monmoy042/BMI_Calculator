@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "BMI_Calculator",
+    "name": "BMI Calculator",
     "slug": "BMI_Calculator",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kmsaifullah.BMI_Calculator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5ad1394c-62db-4b72-a9a0-4024eebc4198"
+      }
     }
   }
 }
